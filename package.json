@@ -4,9 +4,15 @@
   "description": "An SDK to send and receive fine-grained authorization requests that conform to the XACML 3.0 JSON & REST profiles.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./build && tsc",
+    "start": "node build/index.js",
+    "dev": "nodemon ./src/index.ts",
+    "tsc": "tsc --noEmit --incremental",
+    "release": "npm version patch && git push --follow-tags"
   },
   "keywords": ["authorization","xacml","abac","cedar","authzen","alfa","access control"],
   "author": "David Brossard",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "https://github.com/davidjbrossard/xacml-node.git"
 }
