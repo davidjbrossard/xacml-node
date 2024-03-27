@@ -1,5 +1,5 @@
 {
-  "name": "xacml-node",
+  "name": "@axiomatics/xacml-node",
   "version": "1.0.0",
   "description": "An SDK to send and receive fine-grained authorization requests that conform to the XACML 3.0 JSON & REST profiles.",
   "main": "index.js",
@@ -14,5 +14,13 @@
   "keywords": ["authorization","xacml","abac","cedar","authzen","alfa","access control"],
   "author": "David Brossard",
   "license": "MIT",
-  "repository": "https://github.com/davidjbrossard/xacml-node.git"
+  "repository": "https://github.com/davidjbrossard/xacml-node.git",
+  "dependencies": {
+    "axios": "^1.6.7"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
 }
