@@ -13,8 +13,8 @@ enum StatusCodeIdentifiers{
 
 export class Status{
     StatusCode: StatusCode;
-    StatusMessage: string;
-    StatusDetail: any[];
+    StatusMessage?: string;
+    StatusDetail?: any[];
     public static readonly OK = new Status(StatusCodeIdentifiers.OK);
 
     constructor(message: StatusCodeIdentifiers){

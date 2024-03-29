@@ -124,6 +124,7 @@ dist
 
 # vscode config
 .vscode/
+build/
 
 # yarn v2
 .yarn/cache

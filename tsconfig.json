@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "sourceMap": true,
     "target": "esnext",
     "module": "CommonJS",
     "moduleResolution": "node",
@@ -11,6 +12,6 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true
   },
-  "include": ["src"],
-  "exclude": ["test", "node_modules"]
+  "include": ["src","test"],
+  "exclude": ["node_modules"]
 }
