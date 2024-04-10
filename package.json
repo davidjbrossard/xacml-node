@@ -36,5 +36,12 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/davidjbrossard/xacml-node/issues"
+  },
+  "homepage": "https://github.com/davidjbrossard/xacml-node#readme",
+  "directories": {
+    "test": "test"
   }
 }
