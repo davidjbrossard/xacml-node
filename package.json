@@ -9,6 +9,7 @@
     "start": "node build/index.js",
     "dev": "nodemon ./src/index.ts",
     "tsc": "tsc --noEmit --incremental",
+    "prepublish": "npm run build",
     "release": "npm version patch && git push --follow-tags"
   },
   "keywords": [
