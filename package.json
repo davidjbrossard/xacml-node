@@ -2,7 +2,7 @@
   "name": "@axiomatics/xacml-node",
   "version": "1.0.9",
   "description": "An SDK to send and receive fine-grained authorization requests that conform to the XACML 3.0 JSON & REST profiles.",
-  "main": "index.js",
+  "main": "build/src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf ./build && tsc",
