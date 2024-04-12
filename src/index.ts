@@ -1,6 +1,12 @@
 import { RequestWrapper } from "Request";
 import { Response } from "Response";
-export default async function authorize(url: string, req: RequestWrapper) :  Promise<Response>{
+export default {
+    RequestWrapper,
+    Response,
+    authorize
+}
+
+async function authorize(url: string, req: RequestWrapper) :  Promise<Response>{
     let x: Response = new Response();
 
 
